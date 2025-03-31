@@ -3,6 +3,7 @@ import { Container, Row, Col, Image, Card, Button } from "react-bootstrap";
 import fridayfinder from "../assets/img/friday-finder.png";
 import wordlesolver from "../assets/img/wordle.jpg";
 import machinelearn from "../assets/img/ML.jpeg";
+import aiagent from "../assets/AI-Agent.jpeg";
 import pacman from "../assets/img/pacman.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -16,6 +17,13 @@ export const Projects = () => {
       tech: "Javascript web application, built with Next.js React Framework, Node.js for server and backend, Firebase for authentication and database, Material UI: Joy UI components and Google Maps API.",
       image: fridayfinder,
       git_link: "https://github.com/huy-nguy3n/FridayFinder",
+    },
+    {
+      title: "AI Research Agent",
+      description: "Developed an AI-powered research assistant to automate information gathering, summarization, and structured output generation for user queries.",
+      tech: "Built using LangChain, Anthropic's Claude model, Web Search, Wikipedia API, and Pydantic for structured data handling.",
+      image: aiagent,
+      git_link: "https://github.com/huy-nguy3n/AI-Research-Agent",
     },
     {
       title: "AI PACMAN",
