@@ -3,7 +3,7 @@ import { Container, Row, Col, Image, Card, Button } from "react-bootstrap";
 import fridayfinder from "../assets/img/friday-finder.png";
 import wordlesolver from "../assets/img/wordle.jpg";
 import machinelearn from "../assets/img/ML.jpeg";
-import aiagent from "../assets/AI-Agent.jpeg";
+import aiagent from "../assets/img/AI-Agent.jpeg";
 import pacman from "../assets/img/pacman.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
