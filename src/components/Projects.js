@@ -8,9 +8,22 @@ import pacman from "../assets/img/pacman.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import iconImage from '../assets/img/nav-icon3.svg';
+import placeai from '../assets/img/PlaceAI.png';
+
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "PlaceAI",
+      description: (
+        <div>
+          PlaceAI is a context-aware recommendation engine that suggests where to go based on your tastes, your friends’ real experiences, and real-time Google traffic data that highlights hot zones where people are gathering — not just strangers’ star ratings.
+        </div>
+      ),
+      tech: "React, Node.js, MongoDB Atlas (data, memory, geolocation), AI/LLM: Voyage AI (embeddings & RAG) + Fireworks AI (Meta LLM), Maps & Traffic: Google Maps API, HERE Traffic API.",
+      image: placeai,
+      git_link: "https://github.com/huy-nguy3n/PlaceAI",
+    },
     {
       title: "FridayFinder",
       description: "A review, map based web application that utilizes location and rating features to serve attractions related to the individual users. Users can connect with friends to create a network of recommended attractions.",

@@ -4,8 +4,17 @@ import 'react-vertical-timeline-component/style.min.css';
 import Keysight from '../assets/img/kslogo.png';
 import Integem from '../assets/img/intelogo.png';
 import UCSC from '../assets/img/ucsc.png';
+import GT from '../assets/img/GeorgiaTech.png'
 
 const experiences = [
+  {
+    title: "M.S Computer Science",
+    company: "Georgia Institute of Technology",
+    date: "September 2025 - Present",
+    description: "Specialization in AI and Machine Learning",
+    icon: GT,
+    backgroundColor: "#f9f9f9",
+  },
   {
     title: "R&D Software Engineer II",
     company: "Keysight Technologies",
@@ -31,7 +40,7 @@ const experiences = [
     backgroundColor: "#e9ecef",
   },
   {
-    title: "Bachelor of Science in Computer Science",
+    title: "B.S Computer Science",
     company: "UC Santa Cruz",
     date: "September 2020 - June 2024",
     description: "Graduated with honors, where I studied Software Engineering, Artificial Intelligence, Machine Learning, Data Structures & Algorithms.",
