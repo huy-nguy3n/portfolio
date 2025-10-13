@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/personal-portfolio-website/static/css/main.500d84d1.css",
-    "main.js": "/personal-portfolio-website/static/js/main.c2f3c3ce.js",
-    "static/js/453.298f5782.chunk.js": "/personal-portfolio-website/static/js/453.298f5782.chunk.js",
+    "main.css": "/personal-portfolio-website/static/css/main.04b333ff.css",
+    "main.js": "/personal-portfolio-website/static/js/main.e06897de.js",
+    "static/js/453.a98f6c80.chunk.js": "/personal-portfolio-website/static/js/453.a98f6c80.chunk.js",
+    "static/media/PlaceAI.png": "/personal-portfolio-website/static/media/PlaceAI.2b32eaacc0c4def8dc05.png",
     "static/media/friday-finder.png": "/personal-portfolio-website/static/media/friday-finder.dc7043b77d70302e1fd6.png",
+    "static/media/profile.png": "/personal-portfolio-website/static/media/profile.b7f0bad851df3865eb39.png",
     "static/media/color-sharp.png": "/personal-portfolio-website/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/losGatosMap.png": "/personal-portfolio-website/static/media/losGatosMap.2e9ac60e92553eaf01f5.png",
     "static/media/AI-Agent.jpeg": "/personal-portfolio-website/static/media/AI-Agent.ba3ef7c9d2c9a75ad4d6.jpeg",
     "static/media/wordle.jpg": "/personal-portfolio-website/static/media/wordle.430e2bfc4ff566ddf33a.jpg",
-    "static/media/profile.jpeg": "/personal-portfolio-website/static/media/profile.7256e9e0fc85a3c40dfa.jpeg",
     "static/media/ucsc.png": "/personal-portfolio-website/static/media/ucsc.941fb3a11d175e72b134.png",
     "static/media/pacman.png": "/personal-portfolio-website/static/media/pacman.6fd502a83decafaf0357.png",
     "static/media/ML.jpeg": "/personal-portfolio-website/static/media/ML.0683ad2bd4ca3dd152c2.jpeg",
     "static/media/CentraNo2-Bold.ttf": "/personal-portfolio-website/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/personal-portfolio-website/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/personal-portfolio-website/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/GeorgiaTech.png": "/personal-portfolio-website/static/media/GeorgiaTech.51335c29515574417529.png",
     "static/media/intelogo.png": "/personal-portfolio-website/static/media/intelogo.38ac6bcce0fc62d645c4.png",
     "static/media/revicons.eot": "/personal-portfolio-website/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/personal-portfolio-website/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -27,12 +29,12 @@
     "index.html": "/personal-portfolio-website/index.html",
     "static/media/nav-icon2.svg": "/personal-portfolio-website/static/media/nav-icon2.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon1.svg": "/personal-portfolio-website/static/media/nav-icon1.a0b9556db24f5a9461b80b7759ae92f5.svg",
-    "main.500d84d1.css.map": "/personal-portfolio-website/static/css/main.500d84d1.css.map",
-    "main.c2f3c3ce.js.map": "/personal-portfolio-website/static/js/main.c2f3c3ce.js.map",
-    "453.298f5782.chunk.js.map": "/personal-portfolio-website/static/js/453.298f5782.chunk.js.map"
+    "main.04b333ff.css.map": "/personal-portfolio-website/static/css/main.04b333ff.css.map",
+    "main.e06897de.js.map": "/personal-portfolio-website/static/js/main.e06897de.js.map",
+    "453.a98f6c80.chunk.js.map": "/personal-portfolio-website/static/js/453.a98f6c80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.500d84d1.css",
-    "static/js/main.c2f3c3ce.js"
+    "static/css/main.04b333ff.css",
+    "static/js/main.e06897de.js"
   ]
 }
