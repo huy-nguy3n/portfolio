@@ -8,6 +8,14 @@ import GT from '../assets/img/GeorgiaTech.png'
 
 const experiences = [
   {
+    title: "M.S Computer Science",
+    company: "Georgia Institute of Technology",
+    date: "September 2025 - Present",
+    description: "Specialization in AI and Machine Learning",
+    icon: GT,
+    backgroundColor: "#f9f9f9",
+  },
+  {
     title: "R&D Software Engineer II",
     company: "Keysight Technologies",
     date: "July 2024 - Present",
