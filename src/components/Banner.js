@@ -69,7 +69,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hey! I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Fullstack Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I’m currently pursuing my Master’s in Computer Science at the Georgia Tech. Before graduate school, I worked as an R&D Software Engineer at Keysight Technologies, specializing in AI and system automation. In that role, I collaborated with cross-functional teams to define system requirements, design scalable architectures, and build AI/ML infrastructure and distributed systems that supported major clients and secured high-value partnerships.</p>
+                  <p>I worked as an R&D Software Engineer at Keysight Technologies, specializing in AI and system automation. In that role, I collaborated with cross-functional teams to define system requirements, design scalable architectures, and build AI/ML infrastructure and distributed systems that supported major clients and secured high-value partnerships.</p>
                   <button onClick={handleScrollToConnect}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
