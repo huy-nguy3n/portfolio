@@ -4,7 +4,6 @@ import 'react-vertical-timeline-component/style.min.css';
 import Keysight from '../assets/img/kslogo.png';
 import Integem from '../assets/img/intelogo.png';
 import UCSC from '../assets/img/ucsc.png';
-import GT from '../assets/img/GeorgiaTech.png'
 
 const experiences = [
   // {
