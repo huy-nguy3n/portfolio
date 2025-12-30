@@ -24,13 +24,13 @@ export const Projects = () => {
       image: placeai,
       git_link: "https://github.com/huy-nguy3n/PlaceAI",
     },
-    {
-      title: "FridayFinder",
-      description: "A review, map based web application that utilizes location and rating features to serve attractions related to the individual users. Users can connect with friends to create a network of recommended attractions.",
-      tech: "Javascript web application, built with Next.js React Framework, Node.js for server and backend, Firebase for authentication and database, Material UI: Joy UI components and Google Maps API.",
-      image: fridayfinder,
-      git_link: "https://github.com/huy-nguy3n/FridayFinder",
-    },
+    // {
+    //   title: "FridayFinder",
+    //   description: "A review, map based web application that utilizes location and rating features to serve attractions related to the individual users. Users can connect with friends to create a network of recommended attractions.",
+    //   tech: "Javascript web application, built with Next.js React Framework, Node.js for server and backend, Firebase for authentication and database, Material UI: Joy UI components and Google Maps API.",
+    //   image: fridayfinder,
+    //   git_link: "https://github.com/huy-nguy3n/FridayFinder",
+    // },
     {
       title: "AI Research Agent",
       description: "Developed an AI-powered research assistant to automate information gathering, summarization, and structured output generation for user queries.",
@@ -60,25 +60,25 @@ export const Projects = () => {
       image: pacman,
       git_link: "https://github.com/huy-nguy3n/AI-PACMAN",
     },
-    {
-      title: "Machine Learning",
-      description: (
-        <ul>
-          <li>
-            Amazon Recommender System: a recommendation system to predict the ratings and popularity of products on Amazon, using collaborative filtering to recommend products.
-          </li>
-          <li>
-            Stock Price Prediction: analyzing the risk of a stock based on its previous performance history, using Long Short-Term Memory (LSTM) to predict future stock prices.
-          </li>
-          <li>
-            California Housing Prices: analyzing how different factors affect housing prices, using Linear Regression Model and Random Forest Model to predict housing prices.
-          </li>
-        </ul>
-      ),
-      tech: "Developed using Python programming language",
-      image: machinelearn,
-      git_link: "https://github.com/huy-nguy3n/Machine-Learning",
-    },
+    // {
+    //   title: "Machine Learning",
+    //   description: (
+    //     <ul>
+    //       <li>
+    //         Amazon Recommender System: a recommendation system to predict the ratings and popularity of products on Amazon, using collaborative filtering to recommend products.
+    //       </li>
+    //       <li>
+    //         Stock Price Prediction: analyzing the risk of a stock based on its previous performance history, using Long Short-Term Memory (LSTM) to predict future stock prices.
+    //       </li>
+    //       <li>
+    //         California Housing Prices: analyzing how different factors affect housing prices, using Linear Regression Model and Random Forest Model to predict housing prices.
+    //       </li>
+    //     </ul>
+    //   ),
+    //   tech: "Developed using Python programming language",
+    //   image: machinelearn,
+    //   git_link: "https://github.com/huy-nguy3n/Machine-Learning",
+    // },
     {
       title: "Wordle Solver",
       description: "Wordle Solver is a tool designed to assist users in solving the popular word puzzle game, Wordle.",
