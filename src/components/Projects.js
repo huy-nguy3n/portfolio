@@ -3,11 +3,10 @@ import { Container, Row, Col, Image, Card, Button } from "react-bootstrap";
 import wordlesolver from "../assets/img/wordle.jpg";
 import aiagent from "../assets/img/AI-Agent.jpeg";
 import pacman from "../assets/img/pacman.png";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
-import iconImage from '../assets/img/nav-icon3.svg';
-import placeai from '../assets/img/PlaceAI.png';
-
+import "animate.css";
+import TrackVisibility from "react-on-screen";
+import iconImage from "../assets/img/nav-icon3.svg";
+import placeai from "../assets/img/PlaceAI.png";
 
 export const Projects = () => {
   const projects = [
@@ -15,7 +14,10 @@ export const Projects = () => {
       title: "PlaceAI",
       description: (
         <div>
-          PlaceAI is a context-aware recommendation engine that suggests where to go based on your tastes, your friends’ real experiences, and real-time Google traffic data that highlights hot zones where people are gathering — not just strangers’ star ratings.
+          PlaceAI is a context-aware recommendation engine that suggests where
+          to go based on your tastes, your friends’ real experiences, and
+          real-time Google traffic data that highlights hot zones where people
+          are gathering — not just strangers’ star ratings.
         </div>
       ),
       tech: "React, Node.js, MongoDB Atlas (data, memory, geolocation), AI/LLM: Voyage AI (embeddings & RAG) + Fireworks AI (Meta LLM), Maps & Traffic: Google Maps API, HERE Traffic API.",
@@ -31,7 +33,8 @@ export const Projects = () => {
     // },
     {
       title: "AI Research Agent",
-      description: "Developed an AI-powered research assistant to automate information gathering, summarization, and structured output generation for user queries.",
+      description:
+        "Developed an AI-powered research assistant to automate information gathering, summarization, and structured output generation for user queries.",
       tech: "Built using LangChain, Anthropic's Claude model, Web Search, Wikipedia API, and Pydantic for structured data handling.",
       image: aiagent,
       git_link: "https://github.com/huy-nguy3n/AI-Research-Agent",
@@ -40,16 +43,21 @@ export const Projects = () => {
       title: "AI PACMAN",
       description: (
         <div>
-          A modified version of the Pacman educational project from the Berkeley AI Lab. This repository includes three main projects:
+          A modified version of the Pacman educational project from the Berkeley
+          AI Lab. This repository includes three main projects:
           <ul>
             <li>
-              Search in Pac-Man: Pac-Man agent will find paths through their maze world, both to reach a particular location and to collect food efficiently.
+              Search in Pac-Man: Pac-Man agent will find paths through their
+              maze world, both to reach a particular location and to collect
+              food efficiently.
             </li>
             <li>
-              Multi-Agent Pac-Man: Agents are designed for the classic version of Pac-Man, including ghosts.
+              Multi-Agent Pac-Man: Agents are designed for the classic version
+              of Pac-Man, including ghosts.
             </li>
             <li>
-              Reinforcement Learning: Agents are first tested on Gridworld, then apply to a simulated robot controller and Pac-Man.
+              Reinforcement Learning: Agents are first tested on Gridworld, then
+              apply to a simulated robot controller and Pac-Man.
             </li>
           </ul>
         </div>
@@ -79,14 +87,17 @@ export const Projects = () => {
     // },
     {
       title: "Wordle Solver",
-      description: "Wordle Solver is a tool designed to assist users in solving the popular word puzzle game, Wordle.",
+      description:
+        "Wordle Solver is a tool designed to assist users in solving the popular word puzzle game, Wordle.",
       tech: "Developed using C programming language, speed, accuracy, and user-friendly interface.",
       image: wordlesolver,
       git_link: "https://github.com/huy-nguy3n/Wordle-Solver",
     },
   ];
 
-  const [isVisible, setIsVisible] = useState(Array(projects.length).fill(false));
+  const [isVisible, setIsVisible] = useState(
+    Array(projects.length).fill(false)
+  );
 
   const handleVisibilityChange = (index, visible) => {
     const updatedVisibility = [...isVisible];
@@ -103,34 +114,63 @@ export const Projects = () => {
               <h2 style={{ color: "white" }}>Projects</h2>
               {projects.map((project, index) => (
                 <div key={index} className="mb-4">
-                  <TrackVisibility onChange={(isVisible) => handleVisibilityChange(index, isVisible)}>
+                  <TrackVisibility
+                    onChange={(isVisible) =>
+                      handleVisibilityChange(index, isVisible)
+                    }
+                  >
                     {({ isVisible: isCardVisible }) => (
                       <Card
-                        className={`animate__animated ${isCardVisible ? "animate__fadeIn" : ""}`}
-                        style={{ backgroundColor: "#151515", borderRadius: "10px", color: "white" }}
+                        className={`animate__animated ${
+                          isCardVisible ? "animate__fadeIn" : ""
+                        }`}
+                        style={{
+                          backgroundColor: "#151515",
+                          borderRadius: "10px",
+                          color: "white",
+                        }}
                       >
                         <Row>
-                          <Col md="4">
+                          <Col xs="12" md="4">
                             <Image
                               src={project.image}
                               alt={project.title}
                               fluid
-                              style={{ height: "350px", width: "350px", borderRadius: "10px" }}
+                              style={{
+                                width: "100%",
+                                height: "auto",
+                                maxHeight: "350px",
+                                borderRadius: "10px",
+                                objectFit: "cover",
+                              }}
                             />
                           </Col>
-                          <Col md="8">
+                          <Col xs="12" md="8">
                             <Card.Body>
-                              <Card.Title style={{ color: "white" }}>{project.title}</Card.Title>
+                              <Card.Title style={{ color: "white" }}>
+                                {project.title}
+                              </Card.Title>
                               <Card.Text style={{ color: "white" }}>
                                 {project.description}
                               </Card.Text>
-                              <Card.Title style={{ color: "white" }}>Technology</Card.Title>
+                              <Card.Title style={{ color: "white" }}>
+                                Technology
+                              </Card.Title>
                               <Card.Text style={{ color: "white" }}>
                                 {project.tech}
                               </Card.Text>
-                              <a href={project.git_link} target="_blank" rel="noopener noreferrer">
+                              <a
+                                href={project.git_link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
                                 <Button variant="dark">
-                                  <img src={iconImage} alt="" className="icon-img" /> Github
+                                  <img
+                                    src={iconImage}
+                                    alt=""
+                                    className="icon-img"
+                                  />{" "}
+                                  Github
                                 </Button>
                               </a>
                             </Card.Body>
