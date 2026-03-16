@@ -7,9 +7,25 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 import iconImage from "../assets/img/nav-icon3.svg";
 import placeai from "../assets/img/PlaceAI.png";
+import nocagent from "../assets/img/NOC.png";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Network Security NOC Agent",
+      description: (
+        <div>
+          An autonomous AI-powered Network Operations Center (NOC) agent that
+          detects, investigates, and remediates live network security threats
+          (DDoS, SSH brute-force, suspicious payloads) end-to-end without human
+          intervention — from Prometheus alert firing to iptables block
+          execution via SSH
+        </div>
+      ),
+      tech: "Multi-container system with a LangGraph ReAct agent (DeepSeek-V3 via Nebius API) orchestrating MCP tools over SSE, a Prometheus + Alertmanager monitoring stack, a custom Flask log aggregator, simulated Linux network devices (netmiko/SSH), and a React/Vite real-time streaming chat UI — all wired together in Docker Compose.",
+      image: nocagent,
+      git_link: "github.com/MasonD-007/NOC_Agent",
+    },
     {
       title: "PlaceAI",
       description: (
