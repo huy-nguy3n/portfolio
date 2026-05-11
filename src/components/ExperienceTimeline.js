@@ -4,21 +4,22 @@ import 'react-vertical-timeline-component/style.min.css';
 import Keysight from '../assets/img/kslogo.png';
 import Integem from '../assets/img/intelogo.png';
 import UCSC from '../assets/img/ucsc.png';
+import GT from '../assets/img/GeorgiaTech.png';
 
 const experiences = [
-  // {
-  //   title: "M.S Computer Science",
-  //   company: "Georgia Institute of Technology",
-  //   date: "September 2025 - Present",
-  //   description: "Specialization in AI and Machine Learning",
-  //   icon: GT,
-  //   backgroundColor: "#f9f9f9",
-  // },
+  {
+    title: "M.S Computer Science",
+    company: "Georgia Institute of Technology",
+    date: "January 2026 - May 2028",
+    description: "Specialization in AI and Machine Learning",
+    icon: GT,
+    backgroundColor: "#f9f9f9",
+  },
   {
     title: "R&D Software Engineer II",
     company: "Keysight Technologies",
     date: "July 2024 - Present",
-    description: "Built AI/ML infrastructure serving Fortune 500 clients. Developed an AI management system for synthetic data generation. Architected wireless modeling algorithms and automated preprocessing pipelines that reduced automation runtime by 95%. Enabled natural language control on Keysight's flagship product via custom MCP integration. Designed distributed systems on AWS. Built a vendor-agnostic testing framework that increased efficiency by 30%. Collaborated with cross-functional teams to secure multi-million dollar deals.",
+    description: "Specialized in AI systems and automation infrastructure, designing and delivering AI/ML pipelines, distributed cloud systems, and agentic AI interfaces that address critical client needs. Work across both software and hardware domains, collaborated with cross-functional teams to define system requirements and contributed to securing high-value deals with Fortune 500 companies.",
     icon: Keysight,
     backgroundColor: "#e9ecef",
   },
@@ -26,7 +27,7 @@ const experiences = [
     title: "Software Engineer Intern",
     company: "Keysight Technologies",
     date: "January 2024 - June 2024",
-    description: "Developed a Generative AI system using GPT4, Azure, LangChain, and Flask. Web scraped, chunked, and vectorized relevant data to enhance Retrieval Augmented Generation (RAG), saving test engineers' time by 75% compared to manual coding",
+    description: "Developed a multi-agent Generative AI system using GPT4, Azure, LangChain, and Flask. Web scraped, chunked, and vectorized relevant data to enhance Retrieval Augmented Generation (RAG), saving test engineers' time by 75% compared to manual coding.",
     icon: Keysight,
     backgroundColor: "#e9ecef",
   },
